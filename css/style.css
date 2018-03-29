@@ -1,0 +1,152 @@
+/* NOTE: Adding font file */
+@font-face {
+  font-family: GreatVibes;
+  src: url('../fonts/GreatVibes.otf') format('opentype');
+}
+
+/* NOTE: BASE STYLES ******/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* NOTE: GRIDS ***********/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 365px;
+  float: left;
+}
+
+/* NOTE: HEADER **********/
+header{
+  height: 111px;
+}
+
+header h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+nav{
+  float: right;
+  padding-top: 50px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #77a466;
+  padding-left: 18px;
+}
+
+/* NOTE: TOP SECTION *************/
+
+#top .full-width{
+  height: 470px;
+  padding-bottom: 38px;
+}
+
+#top img{
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+#top h2{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #77a466;
+}
+
+#top p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* NOTE: BOTTOM SECTION *********/
+
+#bottom .full-width{
+  height: 212px;
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+}
+
+#bottom .third-width{
+  height: 212px;
+}
+
+#bottom h4{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#bottom ul{
+  padding: 0;
+}
+
+#bottom ul li{
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #77a466;
+  display: block;
+}
+
+#box{
+  border-left: 2px solid #ebebeb;
+  border-right: 2px solid #ebebeb;
+}
+
+#bottom .sec-pad{
+  padding-left: 20px;
+  padding-right: 29px;
+}
+
+#bottom p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* NOTE: FOOTER SECTION *********/
+
+#footer .full-width{
+  height: 77px;
+  clear: both;
+}
+
+footer h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 22px;
+}
+
+footer h3 span{
+  font-size: 24px;
+  font-family: 'GreatVibes', cursive;
+  text-transform: lowercase;
+  color: #77a466;
+}
